@@ -197,14 +197,14 @@ input[type="submit"]:hover {
     font-weight: 700;
 }
 
-.savedAndRegistredCourses{
+.savedAndRegistredCourses {
     display: flex;
     width: 50%;
     justify-content: flex-end;
     margin-top: 20px;
 }
 
-.savedAndRegistredCourses tab{
+.savedAndRegistredCourses tab {
     margin-left: 20px;
 }
 
@@ -250,6 +250,7 @@ input[type="submit"]:hover {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
 }
 
 .cardModal h3 {
@@ -275,10 +276,10 @@ input[type="submit"]:hover {
     font-weight: 700;
 }
 
-.buttonsInModal{
+.buttonsInModal {
     display: flex;
     flex-direction: row;
-justify-content: center;
+    justify-content: center;
     margin: 30px 0 20px 0;
 }
 
@@ -321,10 +322,9 @@ justify-content: center;
 
 }
 
-.buttonsInOpenCourse{
+.buttonsInOpenCourse {
     margin: 20px 0;
 }
-
 
 
 #openCourseInModal {
@@ -419,7 +419,7 @@ tr:hover {
     padding: 0 20px;
 }
 
-.cardDetailed .price{
+.cardDetailed .price {
     font-size: 25px;
     margin-bottom: 30px;
     color: #0A9396;
@@ -508,15 +508,14 @@ tr:hover {
 }
 
 
-
-#leaveComment{
+#leaveComment {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px 0;
 }
 
-#leaveComment button{
+#leaveComment button {
     padding: 15px;
     background-color: #94D2BD;
     color: #ffffff;
@@ -526,7 +525,7 @@ tr:hover {
     margin-left: 10px;
 }
 
-#leaveCommentTextArea{
+#leaveCommentTextArea {
     padding: 30px 10px;
     border-radius: 10px;
     font-family: Arial;
@@ -534,7 +533,7 @@ tr:hover {
 }
 
 #commentSection {
-display: flex;
+    display: flex;
     flex-direction: column;
     margin: 10px auto;
     width: 80%;
@@ -569,7 +568,7 @@ display: flex;
 
 }
 
-.commentsP{
+.commentsP {
     font-weight: 700;
     font-size: 20px;
     margin-top: 30px;
