@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Courses</title>
+</head>
+
+<body onload="showLogin()">
+<div class="container">
+    <header>
+        <h1>Courses</h1>
+        <div class="searchAndSignOut">
+        <div id="search">
+            <input id="searchInput" placeholder="Search all courses">
+            <button onclick="getSearchedCourses()">Search</button>
+        </div>
+        <div id="signOut">
+            <button onclick="signOut()">Sign out</button>
+        </div>
+        </div>
+    </header>
+    <main id='mainDiv'>
+        <div id='form-container'></div>
+    </main>
+    <div id="loading-overlay">
+        <div id="loading-spinner"></div>
+    </div>
+    <div id="modalDialog" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+
+</html>
